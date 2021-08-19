@@ -10,7 +10,7 @@ public class PersonController {
 
     @GetMapping
     public String getBook() {
-        return "API Test!";
+        return "Auto deploy Test!";
     }
 
 }
