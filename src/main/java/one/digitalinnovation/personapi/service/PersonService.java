@@ -1,6 +1,5 @@
 package one.digitalinnovation.personapi.service;
 
-import lombok.AllArgsConstructor;
 import one.digitalinnovation.personapi.dto.request.PersonDTO;
 import one.digitalinnovation.personapi.dto.response.MessageResponseDTO;
 import one.digitalinnovation.personapi.model.Person;
@@ -70,7 +69,7 @@ public class PersonService {
         Person updatedPerson = personRepository.save(personToUpdate);
         return MessageResponseDTO
                 .builder()
-                .message("Created person with ID " + updatedPerson.getId())
+                .message("Updated person with ID " + updatedPerson.getId())
                 .build();
     }
 }
