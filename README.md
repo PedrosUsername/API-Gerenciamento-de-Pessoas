@@ -19,3 +19,6 @@ O projeto foi desenvolvido com a ajuda das seguintes tecnologias:
 * GitHub;
 * Heroku;
 
+Baseado no sistema de Rodrigo Peleias:
+
+* https://github.com/rpeleias/personapi_digital_innovation_one
