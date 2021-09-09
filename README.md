@@ -1,15 +1,16 @@
-## sistema de gerenciamento de pessoas em API REST com Spring Boot
+## sistema de gerenciamento de cursos em API REST com Spring Boot
 
+<!--
 Acesse os registros em:
 
-* http://dioassign-02.herokuapp.com/api/v1/people
+* http://dioassign-02.herokuapp.com/api/v1/courses
 
 (usando curl) Adicione um registro com:
 
 ```shell script
-$ curl -X POST -H "Content-Type: application/json" -d '{ "firstName":"Lucas", "lastName":"Baker", "cpf":"502.755.820-19", "birthDate":"23-03-1986", "rg":"27.230.230-2", "phones": [{ "number":"(11)777777777", "type":"COMMERCIAL" }]}' dioassign-02.herokuapp.com/api/v1/people/
+$ curl -X POST -H "Content-Type: application/json" -d '{ "name":"Spring Boot Advanced", "imgUrl":"xxx", "price":"15.50", "uploadDate":"23-03-1986", "code":"XXL-47P", "duration":"6", "rating":"5", "description":"Um curso muito bacana, que vai te ensinar um bocado de coisa bacana" }' localhost:8080/api/v1/courses/ 
 ```
-
+-->
 O projeto foi desenvolvido com a ajuda das seguintes tecnologias:
 
 * Java 11;
@@ -18,7 +19,3 @@ O projeto foi desenvolvido com a ajuda das seguintes tecnologias:
 * Controle de versão GIT;
 * GitHub;
 * Heroku;
-
-Baseado no sistema de Rodrigo Peleias:
-
-* https://github.com/rpeleias/personapi_digital_innovation_one
