@@ -1,5 +1,6 @@
 package one.digitalinnovation.personapi.model;
 
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -45,5 +46,5 @@ public class Course {
     private String description;
 
     @Column(nullable = false)
-    private LocalDate uploadDate;
+    private LocalDate releaseDate;
 }

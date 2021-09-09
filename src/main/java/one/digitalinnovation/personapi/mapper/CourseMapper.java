@@ -11,7 +11,7 @@ public interface CourseMapper {
 
     CourseMapper INSTANCE = Mappers.getMapper(CourseMapper.class);
 
-    @Mapping(target = "uploadDate", source = "uploadDate", dateFormat = "dd-MM-yyyy")
+    @Mapping(target = "releaseDate", source = "releaseDate")
     Course toModel(CourseDTO courseDTO);
 
     CourseDTO toDTO(Course course);

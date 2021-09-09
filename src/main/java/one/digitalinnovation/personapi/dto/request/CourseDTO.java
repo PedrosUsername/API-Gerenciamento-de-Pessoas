@@ -40,5 +40,5 @@ public class CourseDTO {
     private String description;
 
     @NotEmpty
-    private String uploadDate;
+    private String releaseDate;
 }
